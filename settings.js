@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~ZrchUDZJ#Wijb2NJs5dzF9jc4kC_En1vM03-_BL-dQFOtln1t0zE",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -15,14 +15,14 @@ module.exports = {
     BOT_NAME: process.env.BOT_NAME || "sᴜɴɢ-sᴜʜᴏ-ᴍᴅ",
     // add bot name here for menu
 
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "private",
     // make bot public-private-inbox-group 
 
     LINK_WHITELIST: "youtube.com,github.com",
 
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
-    LINK_ACTION: "kick", // "kick", "mute", or "none"
+    LINK_ACTION: "none", // "kick", "mute", or "none"
 
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // make true or false status auto seen
@@ -39,7 +39,7 @@ module.exports = {
     WELCOME: process.env.WELCOME || "true",
     // true if want welcome and goodbye msg in groups 
 
-    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
     // make true to know who dismiss or promoted a member in group
 
     ANTI_LINK: process.env.ANTI_LINK || "true",
@@ -109,7 +109,7 @@ module.exports = {
     PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     // make false if want private mode
 
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",
     // true for automatic show typing  
 
     READ_CMD: process.env.READ_CMD || "false",
@@ -124,7 +124,7 @@ module.exports = {
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
     // change it to 'inbox' or 'same' if you want to resend deleted message in same chat 
 
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
     // make it true for auto recording 
 
     version: process.env.version || "0.0.5",
