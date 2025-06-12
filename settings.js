@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "suho~ZrchUDZJ#Wijb2NJs5dzF9jc4kC_En1vM03-_BL-dQFOtln1t0zE",
+    SESSION_ID: process.env.SESSION_ID || "suho~ZyUjGSyZ#JtFAC41xPuxIsXe-PGoKoD8DjiRcCICcTpJG4byMJdY",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -18,7 +18,7 @@ module.exports = {
     MODE: process.env.MODE || "private",
     // make bot public-private-inbox-group 
 
-    LINK_WHITELIST: "youtube.com,github.com",
+    LINK_WHITELIST: "Whatsapp.com,github.com",
 
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
@@ -36,7 +36,7 @@ module.exports = {
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
     // set the auto reply message on status reply  
 
-    WELCOME: process.env.WELCOME || "true",
+    WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
@@ -109,7 +109,7 @@ module.exports = {
     PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     // make false if want private mode
 
-    AUTO_TYPING: process.env.AUTO_TYPING || "true",
+    AUTO_TYPING: process.env.AUTO_TYPING || "false",
     // true for automatic show typing  
 
     READ_CMD: process.env.READ_CMD || "false",
@@ -124,7 +124,7 @@ module.exports = {
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
     // change it to 'inbox' or 'same' if you want to resend deleted message in same chat 
 
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
     // make it true for auto recording 
 
     version: process.env.version || "0.0.5",
